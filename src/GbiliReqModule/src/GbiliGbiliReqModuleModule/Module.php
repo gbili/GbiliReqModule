@@ -1,5 +1,5 @@
 <?php
-namespace Req;
+namespace GbiliReqModule;
 
 class Module 
 {
