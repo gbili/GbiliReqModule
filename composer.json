@@ -1,29 +1,25 @@
 {
-    "name":        "gbili/gbili-req-module",
-    "description": "Zend Framework 2 Module initializing the Gbili\Db\Req connection",
-    "type":        "library",
-    "license":     "MIT",
-    "homepage":    "http://gbili.com",
-    "keywords":    [
-        "upload",
-        "module",
-        "zf2"
+    "name": "gbili/gbili-req-module",
+    "description": "Zend Framework 2 Module initializing the Gbili\\Db\\Req connection",
+    "license": "MIT",
+    "keywords": [
+        "framework",
+        "zf2",
+        "dog"
     ],
-
     "repositories" : [
         {
-            "type":"vcs",
-            "url":"https://github.com/gbili/gfw"
+            "type": "vcs",
+            "url": "https://github.com/gbili/gfw"
         }
     ],
-
-    "minimum-stability": "dev",
-
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.3.3",
         "zendframework/zendframework": "~2.2",
         "gbili/gfw": "dev-master"
     },
+
+    "minimum-stability": "dev",
 
     "autoload": {
         "psr-0": {
