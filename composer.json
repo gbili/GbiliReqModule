@@ -19,8 +19,6 @@
         "gbili/gfw": "dev-master"
     },
 
-    "minimum-stability": "dev",
-
     "autoload": {
         "psr-0": {
             "GbiliReqModule\\": "src/"
